@@ -3,139 +3,148 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>খেলা হবে দেখা হবে অনুভূতি হবে</title>
+<title>খেলা হবে </title>
 
 <style>
 *{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
 }
 
 body{
-overflow-x:hidden;
-}
-
-.video-bg{
-position:fixed;
-right:0;
-bottom:0;
-min-width:100%;
-min-height:100%;
-object-fit:cover;
-z-index:-2;
-}
-
-.overlay{
-position:fixed;
-top:0;
-left:0;
-width:100%;
-height:100%;
-background:rgba(0,0,0,0.25);
-z-index:-1;
+    background:linear-gradient(135deg,#000,#111,#1a1a1a);
+    color:white;
 }
 
 .hero{
-height:100vh;
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-text-align:center;
-padding:20px;
-color:white;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
 }
 
 .hero h1{
-font-size:4rem;
-margin:10px 0;
-text-shadow:0 0 20px #fff;
+    font-size:4rem;
+    color:#ffcc00;
+    text-shadow:0 0 20px #ffcc00;
+    margin-bottom:20px;
 }
 
 .hero p{
-font-size:1.3rem;
-margin-top:15px;
+    font-size:1.3rem;
+    color:#fff;
 }
 
 .btn{
-margin-top:30px;
-padding:15px 35px;
-background:#25D366;
-color:#fff;
-text-decoration:none;
-border-radius:50px;
-font-weight:bold;
+    margin-top:30px;
+    background:#25D366;
+    color:white;
+    padding:15px 35px;
+    text-decoration:none;
+    border-radius:50px;
+    font-size:18px;
+    font-weight:bold;
 }
 
-.rules{
-max-width:1000px;
-margin:50px auto;
-padding:30px;
-background:rgba(255,255,255,0.1);
-backdrop-filter:blur(10px);
-border-radius:20px;
-color:white;
+.section{
+    max-width:1200px;
+    margin:auto;
+    padding:50px 20px;
 }
 
-.rules h2{
-margin-bottom:20px;
+.card{
+    background:#151515;
+    border:1px solid #333;
+    border-radius:20px;
+    padding:30px;
 }
 
-.rules p{
-margin:12px 0;
-line-height:1.7;
+.card h2{
+    color:#ffcc00;
+    margin-bottom:20px;
+}
+
+.rule{
+    margin-bottom:15px;
+    line-height:1.8;
+}
+
+.footer{
+    text-align:center;
+    padding:40px 20px;
+}
+
+.footer a{
+    color:#25D366;
+    text-decoration:none;
 }
 </style>
 </head>
 
 <body>
 
-<video autoplay muted loop playsinline class="video-bg">
-<source src="https://cdn.coverr.co/videos/coverr-aerial-view-of-city-lights-1560084088214?download=1080p" type="video/mp4">
-</video>
-
-<div class="overlay"></div>
-
 <section class="hero">
-<h1>খেলা হবে</h1>
-<h1>দেখা হবে</h1>
-<h1>অনুভূতি হবে</h1>
+    <h1>খেলা হবে</h1>
+    <h1>দেখা হবে</h1>
+    <h1>অনুভূতি হবে</h1>
+    <p>Official Community & Entertainment Group</p>
 
-<p>Welcome To Our Official Community</p>
-
-<a class="btn" href="https://chat.whatsapp.com/CdifLHKAUzIJAikUednpBJ?mode=gi_t">
-Join WhatsApp Group
-</a>
+    <a class="btn" href="https://chat.whatsapp.com/CdifLHKAUzIJAikUednpBJ?mode=gi_t">
+        Join WhatsApp Group
+    </a>
 </section>
 
-<div class="rules">
-<h2>✨ GROUP RULES ✨</h2>
+<section class="section">
+    <div class="card">
 
-<p>🤝 Respect Everyone – No Abuse</p>
-<p>🚫 No Personal DMs to Girls</p>
-<p>🔇 No Muting Without Reason</p>
-<p>🔕 Status Mention Not Allowed</p>
-<p>📵 No Save, No Other Group Add</p>
-<p>🔗 No Links or Promotions</p>
-<p>📸 Use View Once for Media</p>
-<p>🕴️ Admin's Decision is Final</p>
-<p>📩 Contact Admins for Help</p>
+        <h2>✨ আমাদের গ্রুপে আপনাকে স্বাগতম ✨</h2>
 
-<br>
+        <div class="rule">1️⃣ সবাইকে সম্মান করুন – বাজে ব্যবহার নিষেধ</div>
+        <div class="rule">2️⃣ মেয়েদের ইনবক্সে বিরক্ত করা যাবে না</div>
+        <div class="rule">3️⃣ বিনা কারণে কাউকে মিউট করা যাবে না</div>
+        <div class="rule">4️⃣ গ্রুপ মেনশন করে স্ট্যাটাস দেওয়া নিষেধ</div>
+        <div class="rule">5️⃣ কারো নাম্বার সেভ বা অন্য গ্রুপে অ্যাড দেওয়া নিষেধ</div>
+        <div class="rule">6️⃣ কোনো লিংক বা প্রমোশন করা যাবে না</div>
+        <div class="rule">7️⃣ মিডিয়া View Once করে পাঠাতে হবে</div>
+        <div class="rule">8️⃣ অ্যাডমিনের সিদ্ধান্তই চূড়ান্ত</div>
+        <div class="rule">9️⃣ সাহায্যের জন্য অ্যাডমিনের সাথে যোগাযোগ করুন</div>
 
-<h2>⚠️ WARNING</h2>
+        <br>
+
+        <h2>⚠️ সতর্কবার্তা</h2>
+
+        <p>
+        নিয়ম ভাঙলে Permanent Ban করা হবে এবং দ্বিতীয়বার আর অ্যাড করা হবে না।
+        </p>
+
+        <br>
+
+        <h2>🌀 Owner</h2>
+        <p><strong>🌀𝆺𝅥⃝𝐀𝖗𝖚ᴘ.𝐆ᯓ𝆺𝅥⃝📝™</strong></p>
+
+    </div>
+</section>
+
+<section class="footer">
+
 <p>
-If anyone is kicked for breaking rules,
-they will be permanently banned and never added back.
+📢 Official Channel:
+<br><br>
+<a href="https://whatsapp.com/channel/0029VasWGG0EVccLdoVrhC1n">
+Join Official WhatsApp Channel
+</a>
 </p>
 
 <br>
 
-<h2>🌀 Owner</h2>
-<p><strong>🌀𝆺𝅥⃝𝐀𝖗𝖚ᴘ.𝐆ᯓ𝆺𝅥⃝📝™</strong></p>
-</div>
+<p>© 2026 Khela Hobe Dekha Hobe Anuvuti Hobe</p>
+
+</section>
 
 </body>
 </html>
